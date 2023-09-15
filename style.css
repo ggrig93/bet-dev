@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: #fff;
+}
+
+#slider {
+    margin-bottom: 30px;
+}
+
+#slider-btns {
+    display: flex;
+    max-width: 350px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#slider-btns a {
+    width: 25%;
+    padding: 4px 5px;
+    border: 1px solid #fff;
+    margin-bottom: 7px;
+}
+
+#anim {
+    max-width: 50%;
+    margin: auto;
+    padding: 5%;
+    border: 2px #D22E40 dashed;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;    
+} */
